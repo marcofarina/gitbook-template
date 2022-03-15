@@ -3,11 +3,11 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">A GitBook for Teaching</a></li>
+        <li><a href="./">Template GitBook</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/cjvanlissa/gitbook-demo/edit/master/%s
-    download: ["pdf"]
+    edit: https://github.com/marcofarina/gitbook-template/edit/main/%s
+    download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
